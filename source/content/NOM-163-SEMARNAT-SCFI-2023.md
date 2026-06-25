@@ -1980,7 +1980,7 @@ La fórmula para determinar el Crédito por la incorporación del sistema eléct
 ![](https://diariooficial.gob.mx/normasOficiales/9389/semarnat/img47.png)
 
 $$
-\text{CreditoTFCSECC}_{añок} = 1.92 * \left( \frac{\text{Ventas}_{SECC,Vp}}{\text{Ventas}_{tot,añok}} \right) + 3.38 \left( \frac{\text{Ventas}_{SECC,CL}}{\text{Ventas}_{tot,aañok}} \right)
+	ext{CréditoTFCSECC}_{\text{año }k} = 1.92 \cdot \left( \frac{\text{Ventas}_{\text{SECC,VP}}}{\text{Ventas}_{\text{tot,año }k}} \right) + 3.38 \cdot \left( \frac{\text{Ventas}_{\text{SECC,CL}}}{\text{Ventas}_{\text{tot,año }k}} \right)
 $$
 
 Donde
@@ -2003,18 +2003,20 @@ El crédito total a otorgar a la flota del corporativo por la incorporación de 
 
 ![](https://diariooficial.gob.mx/normasOficiales/9389/semarnat/img48.png)
 
-$$Credito TFCaño k=Credito TFCLaño k+Credito TFCRCaño k+Credito TFCMAaño k+Credito TFCPAaño k+Credito TFCCAMaño k+Credito TFCCATaño k+Credito TFCCTaño k+Credito TFCPSaño k+Credito TFCSECCanño k+Credito TFCSMPaño k$$
+$$
+	ext{CréditoTFC}_{\text{año }k} = \text{CréditoTFCL}_{\text{año }k} + \text{CréditoTFCRC}_{\text{año }k} + \text{CréditoTFCMA}_{\text{año }k} + \text{CréditoTFCPA}_{\text{año }k} + \text{CréditoTFCCAM}_{\text{año }k} + \text{CréditoTFCCAT}_{\text{año }k} + \text{CréditoTFCCT}_{\text{año }k} + \text{CréditoTFCPS}_{\text{año }k} + \text{CréditoTFCSECC}_{\text{año }k} + \text{CréditoTFCSMP}_{\text{año }k}
+$$
 
 Si
 
 
-$Credito TFCañok \ge 6.25$
+$\text{CréditoTFC}_{\text{año }k} \ge 6.25$
 
 
 Entonces
 
 
-$Credito TFCañok = 6.25$
+$\text{CréditoTFC}_{\text{año }k} = 6.25$
 
 
 En caso contrario será el resultado de la suma
@@ -2025,14 +2027,16 @@ El monto final de crédito a otorgar para el año modelo regulado en unidades de
 
 ![](https://diariooficial.gob.mx/normasOficiales/9389/semarnat/img51.png)
 
-$$Credito TFCaño k=(Credito TFCLaño k+Credito TFCRCaño k+Credito TFCMAaño k+Credito TFCPAaño k+Credito TFCCAMaño k+Credito TFCCATaño k+Credito TFCCTaño k+Credito TFCPSaño k+Credito TFCSECCaño k+Credito TFCSMPaño k)∗Ventastot año k∗247760$$
+$$
+	ext{CréditoTFC}_{\text{año }k} = (\text{CréditoTFCL}_{\text{año }k} + \text{CréditoTFCRC}_{\text{año }k} + \text{CréditoTFCMA}_{\text{año }k} + \text{CréditoTFCPA}_{\text{año }k} + \text{CréditoTFCCAM}_{\text{año }k} + \text{CréditoTFCCAT}_{\text{año }k} + \text{CréditoTFCCT}_{\text{año }k} + \text{CréditoTFCPS}_{\text{año }k} + \text{CréditoTFCSECC}_{\text{año }k} + \text{CréditoTFCSMP}_{\text{año }k}) \cdot \text{Ventas}_{\text{tot,año }k} \cdot 247760
+$$
 
 El crédito total para el periodo regulado 2025-2027 por la incorporación de todas las tecnologías fuera de ciclo es:
 
 
 ![](https://diariooficial.gob.mx/normasOficiales/9389/semarnat/img52.png)
 
-$\text{CreditofTFC}_{j2025-2027} = \left( \sum_{k=2025}^{2027} \text{CreditofTFC}_{añok} \right) \Big/ \left( \left( \sum_{k=2025}^{2027} \text{Ventas}_{totalk} \right) \right)$
+$\text{CréditoTFC}_{j,2025-2027} = \frac{\sum_{k=2025}^{2027} \text{CréditoTFC}_{\text{año }k}}{\sum_{k=2025}^{2027} \text{Ventas}_{\text{total }k}}$
 
 Donde:
 
@@ -2150,7 +2154,14 @@ Fórmula 1
 
 ![](https://diariooficial.gob.mx/normasOficiales/9389/semarnat/img53.png)
 
-$$CA1_{i\ 2019-2027} = \left[ \left[ \left[ \left[ \left[ (PCPM_i - PCPO_i)_{2019} * Ventas_{i\ 2019} \right] + \left[ (PCPM_i - PCPO_i)_{2020} * Ventas_{i\ 2020} \right] \right. \right. \right. \right. \\ \left. \left. + \left[ (PCPM_i - PCPO_i)_{2021} * Ventas_{i\ 2021} \right] + \left[ (PCPM_i - PCPO_i)_{2022} * Ventas_{i\ 2022} \right] \right. \right. \\ \left. \left. + \left[ (PCPM_i - PCPO_i)_{2023} * Ventas_{i\ 2023} \right] + \left[ (PCPM_i - PCPO_i)_{2024} * Ventas_{i\ 2024} \right] \right. \right. \\ \left. \left. + \left[ (PCPM_i - PCPO_i)_{2025} * Ventas_{i\ 2025} \right] + \left[ (PCPM_i - PCPO_i)_{2026} * Ventas_{i\ 2026} \right] \right. \right. \\ \left. \left. + \left[ (PCPM_i - PCPO_i)_{2027} * Ventas_{i\ 2027} \right] \right] * 247760 \right] \bigg/ \sum Ventas_{i\ 2019-2027} \bigg] \geq 0 \\ \implies Cumple$$
+$$
+\begin{aligned}
+CA1_{i,2019-2027}
+&= \frac{\left[(PCPM_i - PCPO_i)_{2019}\,\text{Ventas}_{i,2019} + (PCPM_i - PCPO_i)_{2020}\,\text{Ventas}_{i,2020} + (PCPM_i - PCPO_i)_{2021}\,\text{Ventas}_{i,2021} + (PCPM_i - PCPO_i)_{2022}\,\text{Ventas}_{i,2022} + (PCPM_i - PCPO_i)_{2023}\,\text{Ventas}_{i,2023} + (PCPM_i - PCPO_i)_{2024}\,\text{Ventas}_{i,2024} + (PCPM_i - PCPO_i)_{2025}\,\text{Ventas}_{i,2025} + (PCPM_i - PCPO_i)_{2026}\,\text{Ventas}_{i,2026} + (PCPM_i - PCPO_i)_{2027}\,\text{Ventas}_{i,2027}\right] \cdot 247760}{\sum \text{Ventas}_{i,2019-2027}} \\
+&\ge 0 \\
+&\Rightarrow \text{Cumple}
+\end{aligned}
+$$
 Dónde:
 
 
@@ -2183,7 +2194,15 @@ Fórmula 2
 
 ![](https://diariooficial.gob.mx/normasOficiales/9389/semarnat/img54.png)
 
-$$CA2i 2019−2027=[CA1i 2019−2027+[Credito TAEi 2025−2027+Credito ACLi 2025−2027+Credito ACLRi 2025−2027+Credito ACEi 2025−2027+Credito TFCi 2025−2027]+[Credito TAEi 2019−2024+Credito PTi 2019−2024+Credito ACi 2019−2024]+[Credito TAEi 2017−2018+Credito PTi 2017−2018+Credito ACi 2017−2018]+Creditosi 2014−2016]≥0⇒Cumple$$
+$$
+\begin{aligned}
+CA2_{i,2019-2027} &= CA1_{i,2019-2027} + [\text{CréditoTAE}_{i,2025-2027} + \text{CréditoACL}_{i,2025-2027} + \text{CréditoACLR}_{i,2025-2027} + \text{CréditoACE}_{i,2025-2027} + \text{CréditoTFC}_{i,2025-2027}] \\
+&\quad + [\text{CréditoTAE}_{i,2019-2024} + \text{CréditoPT}_{i,2019-2024} + \text{CréditoAC}_{i,2019-2024}] \\
+&\quad + [\text{CréditoTAE}_{i,2017-2018} + \text{CréditoPT}_{i,2017-2018} + \text{CréditoAC}_{i,2017-2018}] + \text{Créditos}_{i,2014-2016} \\
+&\ge 0 \\
+&\Rightarrow \text{Cumple}
+\end{aligned}
+$$
 
 Dónde:
 
@@ -2341,7 +2360,9 @@ Fórmula 3
 
 ![](https://diariooficial.gob.mx/normasOficiales/9389/semarnat/img57.png)
 
-$$CA3j2019−2027=CA2j2019−2027+Transferenciam=0⇒Cumple$$ 
+$$
+CA3_{j,2019-2027} = CA2_{j,2019-2027} + \text{Transferencia}_m \ge 0 \Rightarrow \text{Cumple}
+$$
 Donde:
 
 
@@ -2362,7 +2383,9 @@ Fórmula 4
 
 ![](https://diariooficial.gob.mx/normasOficiales/9389/semarnat/img58.png)
 
-$$CA4j2019−2027=CA3j2019−2027+Compensacioˊni=0  ⟹  Cumpl$$
+$$
+CA4_{j,2019-2027} = CA3_{j,2019-2027} + \text{Compensación}_i \ge 0 \Rightarrow \text{Cumple}
+$$
 
 Donde:
 
