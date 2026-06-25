@@ -12,10 +12,8 @@ const config: QuartzConfig = {
     pageTitleSuffix: "SUR",
     enableSPA: true,
     enablePopovers: true,
-    analytics: {
-      provider: "plausible",
-    },
-    locale: "es-MX",
+    analytics: null,
+    locale: "es-ES",
     baseUrl: "surinstitute.github.io/NOM163/",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "created",
