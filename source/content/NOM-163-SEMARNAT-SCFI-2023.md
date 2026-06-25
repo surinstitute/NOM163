@@ -1068,7 +1068,7 @@ El monto del Crédito TAE que podrán obtener los corporativos por tecnologías 
 
 ![](https://diariooficial.gob.mx/normasOficiales/9389/semarnat/img15.png)
 
-$$\text{CréditoTAE}_{\text{añoi}} = \left( \text{PCPM}_{\text{proyi} \frac{gCO_2}{km}} - \text{PCPO}_{\text{proyi} \frac{gCO_2}{km}} \right) - \left( \text{PCPM}_{\text{i} \frac{gCO_2}{km}} - \text{PCPO}_{\text{i} \frac{gCO_2}{km}} \right)$$
+$$\text{CreditoTAE}_{\text{ano }i} = \left( \text{PCPM}_{\text{proy},i} - \text{PCPO}_{\text{proy},i} \right) - \left( \text{PCPM}_{i} - \text{PCPO}_{i} \right)$$
 
 Donde:
 
@@ -1094,9 +1094,9 @@ $$\left( \text{PCPM}_{\frac{gCO_2}{km}} - \text{PCPO}_{\frac{gCO_2}{km}} \right)
 
 es negativo y el término 1 
 
-$$\left( \text{PCPM}_{\text{proyi} \frac{gCO_2}{km}} - \text{PCPO}_{\text{proyi} \frac{gCO_2}{km}} \right)$$
-es positivo y esta condición del término 2 $$\left( \text{PCPM}_{\frac{gCO_2}{km}} - \text{PCPO}_{\frac{gCO_2}{km}} \right)$$se presenta durante dos años modelo consecutivos en el periodo regulado; el corporativo para esos dos años modelo tendrá en cuenta para el cálculo del Crédito TAEañoi, la magnitud absoluta del término 2 
-$$\left( \text{PCPM}_{\text{proyi} \frac{gCO_2}{km}} - \text{PCPO}_{\text{proyi} \frac{gCO_2}{km}} \right)$$
+$$\left( \text{PCPM}_{\text{proy},i} - \text{PCPO}_{\text{proy},i} \right)$$
+es positivo y esta condición del término 2 $$\left( \text{PCPM}_{\frac{gCO_2}{km}} - \text{PCPO}_{\frac{gCO_2}{km}} \right)$$ se presenta durante dos años modelo consecutivos en el periodo regulado; el corporativo para esos dos años modelo tendrá en cuenta para el cálculo del Crédito TAE año i, la magnitud absoluta del término 2 
+$$\left( \text{PCPM}_{\text{proy},i} - \text{PCPO}_{\text{proy},i} \right)$$
 dicha magnitud se restará al término 1 
 $$\left( \text{PCPM}_{\frac{gCO_2}{km}} - \text{PCPO}_{\frac{gCO_2}{km}} \right)$$
 , de acuerdo con el año modelo correspondiente. Si la condición se presentara en un tercer año modelo, el criterio también se aplicará.
@@ -1274,9 +1274,9 @@ La fórmula para determinar el Crédito para el periodo regulado 2025-2027 es la
 
 ![](https://diariooficial.gob.mx/normasOficiales/9389/semarnat/img26.png)
 
-$$\text{CréditoACL}_{\text{añok}} = \left[(4.12 \cdot \alpha_{\text{ACLañok}}) \cdot \text{Ventas}_{\text{totañok}}\right] \cdot 247760$$
+$$\text{CreditoACL}_{\text{ano }k} = \left[(4.12 \cdot \alpha_{\text{ACL,ano }k}) \cdot \text{Ventas}_{\text{tot,ano }k}\right] \cdot 247760$$
 
-$$\alpha_{\text{ACLañok}} = \frac{\text{Ventas}_{\text{ACLañok}}}{\text{Ventas}_{\text{totañok}}}$$
+$$\alpha_{\text{ACL,ano }k} = \frac{\text{Ventas}_{\text{ACL,ano }k}}{\text{Ventas}_{\text{tot,ano }k}}$$
 
 $$\text{CréditoACL}_{j\,2025\text{--}2027}  
 =  
@@ -1329,9 +1329,9 @@ La fórmula para determinar el Crédito en periodo regulado 2025-2027 es la sigu
 ![](https://diariooficial.gob.mx/normasOficiales/9389/semarnat/img28.png)
 
 
-$$\text{CréditoACLR}_{\text{añok}} = \left[(9.04 \cdot \alpha_{\text{ACRLañok}}) \cdot \text{Ventas}_{\text{totañok}}\right] \cdot 247760$$
+$$\text{CreditoACLR}_{\text{ano }k} = \left[(9.04 \cdot \alpha_{\text{ACLR,ano }k}) \cdot \text{Ventas}_{\text{tot,ano }k}\right] \cdot 247760$$
 
-$$\alpha_{\text{ACLRañok}} = \frac{\text{Ventas}_{\text{ACLRañok}}}{\text{Ventas}_{\text{totañok}}}$$
+$$\alpha_{\text{ACLR,ano }k} = \frac{\text{Ventas}_{\text{ACLR,ano }k}}{\text{Ventas}_{\text{tot,ano }k}}$$
 
 $$\text{CréditoACLR}_{j\,2025\text{--}2027}  
 =  
@@ -1478,7 +1478,7 @@ La fórmula para determinar el Crédito relacionado con la penetración tecnoló
 
 ![](https://diariooficial.gob.mx/normasOficiales/9389/semarnat/img30.png)
 
-$$\text{CréditoPT}_{\text{añoi}} = \left[(0.9 \cdot \alpha) \cdot \text{Ventas}_{\text{totañoi}}\right] \cdot 247760$$
+$$\text{CreditoPT}_{\text{ano }i} = \left[(0.9 \cdot \alpha) \cdot \text{Ventas}_{\text{tot,ano }i}\right] \cdot 247760$$
 $$CréditoPT_{i2017-2018} = \frac{\sum CréditoPT_{a\tilde{no}i}}{\sum Ventas_{i2017-2018}}$$
 
 Donde:
@@ -1508,7 +1508,7 @@ La fórmula para determinar el Crédito relacionado con la penetración tecnoló
 ![](https://diariooficial.gob.mx/normasOficiales/9389/semarnat/img31.png)
 
 
-$$\text{CréditoPT}_{\text{añoi}} = \left[(0.9 \cdot \alpha) \cdot \text{Ventas}_{\text{totañoi}}\right] \cdot 247760$$
+$$\text{CreditoPT}_{\text{ano }i} = \left[(0.9 \cdot \alpha) \cdot \text{Ventas}_{\text{tot,ano }i}\right] \cdot 247760$$
 $$CréditoPT_{i2019-2024} = \frac{\sum CréditoPT_{a\tilde{no}i}}{\sum Ventas_{i2019-2024}}$$
 
 
@@ -1643,7 +1643,7 @@ La fórmula para determinar el Crédito por mejoras aerodinámicas activas en la
 
 ![](https://diariooficial.gob.mx/normasOficiales/9389/semarnat/img34.png)
 
-$$\text{Cr\'editoTFCMA}_{a\tilde{n}ok} = 1.20 *\left( \frac{Vent as_{MA,VP}}{Vent as_{tot a\tilde{nok}}} \right) + 2.06 *\left( \frac{Vent as_{MA,CL}}{Vent as_{tot a\tilde{nok}}} \right)$$
+$$\text{CreditoTFCMA}_{\text{ano }k} = 1.20 \cdot \left( \frac{\text{Ventas}_{\text{MA,VP}}}{\text{Ventas}_{\text{tot,ano }k}} \right) + 2.06 \cdot \left( \frac{\text{Ventas}_{\text{MA,CL}}}{\text{Ventas}_{\text{tot,ano }k}} \right)$$
 
 Donde:
 
@@ -1680,7 +1680,7 @@ La fórmula para determinar el Crédito por motor con sistema paro-arranque en l
 
 ![](https://diariooficial.gob.mx/normasOficiales/9389/semarnat/img35.png)
 
-$$CréditoTFCP A_{añok} = 1.15 *\left( \frac{Vent as_{PA,vp}}{Vent as_{totañok}} \right) + 2.23\left( \frac{Vent as_{PA,CL}}{Vent as_{totañok}} \right)$$
+$$\text{CreditoTFCPA}_{\text{ano }k} = 1.15 \cdot \left( \frac{\text{Ventas}_{\text{PA,VP}}}{\text{Ventas}_{\text{tot,ano }k}} \right) + 2.23 \cdot \left( \frac{\text{Ventas}_{\text{PA,CL}}}{\text{Ventas}_{\text{tot,ano }k}} \right)$$
 
 Donde:
 
@@ -1719,7 +1719,7 @@ La fórmula para determinar el Crédito por la incorporación del sistema de cal
 
 ![](https://diariooficial.gob.mx/normasOficiales/9389/semarnat/img36.png)
 
-$$CréditoTFCCAM_{añok} = 1.10 *\left( \frac{Ventas_{CAM,vp}}{Ventas_{totañok}} \right) + 2.34\left( \frac{Ventas_{CAM,CL}}{Ventas_{totañok}} \right)$$
+$$\text{CreditoTFCCAM}_{\text{ano }k} = 1.10 \cdot \left( \frac{\text{Ventas}_{\text{CAM,VP}}}{\text{Ventas}_{\text{tot,ano }k}} \right) + 2.34 \cdot \left( \frac{\text{Ventas}_{\text{CAM,CL}}}{\text{Ventas}_{\text{tot,ano }k}} \right)$$
 
 Donde
 
@@ -1757,7 +1757,7 @@ La fórmula para determinar el Crédito por la incorporación del sistema de cal
 
 ![](https://diariooficial.gob.mx/normasOficiales/9389/semarnat/img37.png)
 
-$$CréditoTFCCAT_{añok} = 1.21 *\left( \frac{Ventas_{CAT,vp}}{Ventas_{totañok}} \right) + 2.58\left( \frac{Ventas_{CAT,CL}}{Ventas_{totañok}} \right)$$
+$$\text{CreditoTFCCAT}_{\text{ano }k} = 1.21 \cdot \left( \frac{\text{Ventas}_{\text{CAT,VP}}}{\text{Ventas}_{\text{tot,ano }k}} \right) + 2.58 \cdot \left( \frac{\text{Ventas}_{\text{CAT,CL}}}{\text{Ventas}_{\text{tot,ano }k}} \right)$$
 
 Donde
 
@@ -1887,7 +1887,7 @@ La fórmula para determinar el Crédito total por la incorporación de controles
 
 ![](https://diariooficial.gob.mx/normasOficiales/9389/semarnat/img44.png)
 
-$$\text{CreditoTFCCT}_{añok} = \text{CreditoCT}_{v_{p},añok} + \text{CreditoCT}_{CL,añok}$$
+$$\text{CreditoTFCCT}_{\text{ano }k} = \text{CreditoCT}_{\text{VP,ano }k} + \text{CreditoCT}_{\text{CL,ano }k}$$
 
 Donde:
 
@@ -1929,7 +1929,7 @@ La fórmula para determinar el Crédito por paneles solares de la flota del Corp
 
 ![](https://diariooficial.gob.mx/normasOficiales/9389/semarnat/img45.png)
 
-$$\text{Credito TFCPS}_{a\text{\~no }k} = \bigg( 2 \cdot \left( \frac{\text{Ventas}_{PS,VP}}{\text{Ventas tot a\~no }k} \right) + 2 \cdot \left( \frac{\text{Ventas}_{PS,CL}}{\text{Ventas tot a\~no }k} \right) + \Big(1.6 \cdot \left( \frac{\text{Ventas}_{PS,VP}}{\text{Ventas tot a\~no }k} \right) + 1.6 \cdot \left( \frac{\text{Ventas}_{PS,CL}}{\text{Ventas tot a\~no }k} \right) \Big) \bigg)$$
+$$\text{CreditoTFCPS}_{\text{ano }k} = 2\left( \frac{\text{Ventas}_{\text{PS,VP}}}{\text{Ventas}_{\text{tot,ano }k}} + \frac{\text{Ventas}_{\text{PS,CL}}}{\text{Ventas}_{\text{tot,ano }k}} \right) + 1.6\left( \frac{\text{Ventas}_{\text{PS,VP}}}{\text{Ventas}_{\text{tot,ano }k}} + \frac{\text{Ventas}_{\text{PS,CL}}}{\text{Ventas}_{\text{tot,ano }k}} \right)$$
 
 Donde:
 
@@ -1963,7 +1963,7 @@ La fórmula para determinar el Crédito por la incorporación del sistema de mon
 
 ![](https://diariooficial.gob.mx/normasOficiales/9389/semarnat/img46.png)
 
-$$Credi toTFC SMP = \left( \frac{0.60 * Ventas_{SMP}}{Ventas_{totalañok}} \right)$$
+$$\text{CreditoTFCSMP}_{\text{ano }k} = \frac{0.60 \cdot \text{Ventas}_{\text{SMP}}}{\text{Ventas}_{\text{tot,ano }k}}$$
 
 Donde:
 
