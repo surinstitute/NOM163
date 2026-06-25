@@ -958,10 +958,20 @@ El cálculo del Promedio corporativo ponderado observado proyectado para esta me
 
 
 $$
-\begin{array}{l}
-\mathrm{PCPO}_{\mathrm{proy} \frac{\mathrm{gCO}_2}{\mathrm{km}}} = \left(\left(\sum_{i=1}^{\mathrm{n}} \mathrm{EC}_{\mathrm{observada} i} * \mathrm{Ventas}_i\right) + \left(\sum_{i=1}^{\mathrm{n}} \mathrm{EC}_{\mathrm{observada} \mathrm{HEV} i} * \mathrm{Ventas}_{\mathrm{HEV} i} * \mathrm{Mp}_{\mathrm{HEV}}\right) + \left(\sum_{i=1}^{\mathrm{n}} \mathrm{EC}_{\mathrm{observada} \mathrm{PHEV} i} * \mathrm{Ventas}_{\mathrm{PHEV} i} * \mathrm{Mp}_{\mathrm{PHEV}}\right) + \left(\sum_{i=1}^{\mathrm{n}} \mathrm{EC}_{\mathrm{observada} \mathrm{EV} i} * \mathrm{Ventas}_{\mathrm{EV} i} * \mathrm{Mp}_{\mathrm{EV}}\right)\right) \\
-/ \left(\left(\sum_{i=1}^{\mathrm{n}} \mathrm{Ventas}_i\right) + \left(\sum_{i=1}^{\mathrm{n}} \mathrm{Ventas}_{\mathrm{HEV} i} * \mathrm{Mp}_{\mathrm{HEV}}\right) + \left(\sum_{i=1}^{\mathrm{n}} \mathrm{Ventas}_{\mathrm{PHEV} i} * \mathrm{Mp}_{\mathrm{PHEV}}\right) + \left(\sum_{i=1}^{\mathrm{n}} \mathrm{Ventas}_{\mathrm{EV} i} * \mathrm{Mp}_{\mathrm{EV}}\right)\right)
-\end{array}
+\begin{aligned}
+\mathrm{PCPO}_{\mathrm{proy}\,\frac{\mathrm{gCO}_2}{\mathrm{km}}}
+&= \frac{
+\left(\sum_{i=1}^{\mathrm{n}} \mathrm{EC}_{\mathrm{observada}\,i}\,\mathrm{Ventas}_i\right)
++ \left(\sum_{i=1}^{\mathrm{n}} \mathrm{EC}_{\mathrm{observada}\,\mathrm{HEV}\,i}\,\mathrm{Ventas}_{\mathrm{HEV}\,i}\,\mathrm{Mp}_{\mathrm{HEV}}\right)
++ \left(\sum_{i=1}^{\mathrm{n}} \mathrm{EC}_{\mathrm{observada}\,\mathrm{PHEV}\,i}\,\mathrm{Ventas}_{\mathrm{PHEV}\,i}\,\mathrm{Mp}_{\mathrm{PHEV}}\right)
++ \left(\sum_{i=1}^{\mathrm{n}} \mathrm{EC}_{\mathrm{observada}\,\mathrm{EV}\,i}\,\mathrm{Ventas}_{\mathrm{EV}\,i}\,\mathrm{Mp}_{\mathrm{EV}}\right)
+}{
+\left(\sum_{i=1}^{\mathrm{n}} \mathrm{Ventas}_i\right)
++ \left(\sum_{i=1}^{\mathrm{n}} \mathrm{Ventas}_{\mathrm{HEV}\,i}\,\mathrm{Mp}_{\mathrm{HEV}}\right)
++ \left(\sum_{i=1}^{\mathrm{n}} \mathrm{Ventas}_{\mathrm{PHEV}\,i}\,\mathrm{Mp}_{\mathrm{PHEV}}\right)
++ \left(\sum_{i=1}^{\mathrm{n}} \mathrm{Ventas}_{\mathrm{EV}\,i}\,\mathrm{Mp}_{\mathrm{EV}}\right)
+}
+\end{aligned}
 $$
 
 Donde:
@@ -1004,10 +1014,20 @@ El cálculo del Promedio corporativo ponderado meta proyectado para esta metodol
 
 
 $$
-\begin{array}{l}
-\mathrm{PCPM}_{\mathrm{proy} \frac{\mathrm{gCO}_2}{\mathrm{km}}} = \left(\left(\sum_{i=1}^{\mathrm{n}} \mathrm{Emision}_{\mathrm{meta} i} * \mathrm{Ventas}_i\right) + \left(\sum_{i=1}^{\mathrm{n}} \mathrm{Emision}_{\mathrm{meta} \mathrm{HEV} i} * \mathrm{Ventas}_{\mathrm{HEV} i} * \mathrm{Mp}_{\mathrm{HEV}}\right) + \left(\sum_{i=1}^{\mathrm{n}} \mathrm{Emision}_{\mathrm{meta} \mathrm{PHEV} i} * \mathrm{Ventas}_{\mathrm{PHEV} i} * \mathrm{Mp}_{\mathrm{PHEV}}\right) + \left(\sum_{i=1}^{\mathrm{n}} \mathrm{Emision}_{\mathrm{meta} \mathrm{EV} i} * \mathrm{Ventas}_{\mathrm{EV} i} * \mathrm{Mp}_{\mathrm{EV}}\right)\right) \\
-/ \left(\left(\sum_{i=1}^{\mathrm{n}} \mathrm{Ventas}_i\right) + \left(\sum_{i=1}^{\mathrm{n}} \mathrm{Ventas}_{\mathrm{HEV} i} * \mathrm{Mp}_{\mathrm{HEV}}\right) + \left(\sum_{i=1}^{\mathrm{n}} \mathrm{Ventas}_{\mathrm{PHEV} i} * \mathrm{Mp}_{\mathrm{PHEV}}\right) + \left(\sum_{i=1}^{\mathrm{n}} \mathrm{Ventas}_{\mathrm{EV} i} * \mathrm{Mp}_{\mathrm{EV}}\right)\right)
-\end{array}
+\begin{aligned}
+\mathrm{PCPM}_{\mathrm{proy}\,\frac{\mathrm{gCO}_2}{\mathrm{km}}}
+&= \frac{
+\left(\sum_{i=1}^{\mathrm{n}} \mathrm{Emision}_{\mathrm{meta}\,i}\,\mathrm{Ventas}_i\right)
++ \left(\sum_{i=1}^{\mathrm{n}} \mathrm{Emision}_{\mathrm{meta}\,\mathrm{HEV}\,i}\,\mathrm{Ventas}_{\mathrm{HEV}\,i}\,\mathrm{Mp}_{\mathrm{HEV}}\right)
++ \left(\sum_{i=1}^{\mathrm{n}} \mathrm{Emision}_{\mathrm{meta}\,\mathrm{PHEV}\,i}\,\mathrm{Ventas}_{\mathrm{PHEV}\,i}\,\mathrm{Mp}_{\mathrm{PHEV}}\right)
++ \left(\sum_{i=1}^{\mathrm{n}} \mathrm{Emision}_{\mathrm{meta}\,\mathrm{EV}\,i}\,\mathrm{Ventas}_{\mathrm{EV}\,i}\,\mathrm{Mp}_{\mathrm{EV}}\right)
+}{
+\left(\sum_{i=1}^{\mathrm{n}} \mathrm{Ventas}_i\right)
++ \left(\sum_{i=1}^{\mathrm{n}} \mathrm{Ventas}_{\mathrm{HEV}\,i}\,\mathrm{Mp}_{\mathrm{HEV}}\right)
++ \left(\sum_{i=1}^{\mathrm{n}} \mathrm{Ventas}_{\mathrm{PHEV}\,i}\,\mathrm{Mp}_{\mathrm{PHEV}}\right)
++ \left(\sum_{i=1}^{\mathrm{n}} \mathrm{Ventas}_{\mathrm{EV}\,i}\,\mathrm{Mp}_{\mathrm{EV}}\right)
+}
+\end{aligned}
 $$
 
 Donde:
