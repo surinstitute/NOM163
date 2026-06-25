@@ -11,8 +11,6 @@ Full Document:
 Regulations are current to 2026-05-26  and last amended on 2023-12-15. Previous Versions
 Table of Contents
 
-
-
 Passenger Automobile and Light Truck Greenhouse Gas Emission Regulations
 1 - Interpretation
 
@@ -693,7 +691,7 @@ Marginal note:Rounding — nearest ten-thousandth of a unit
 Previous Version
 
 
-#### Fleet Average CO2 Equivalent Emission Standards
+## Fleet Average CO2 Equivalent Emission Standards
 
 Marginal note:Calculation of fleet average CO2 equivalent emission standard for the 2011 model year
 
@@ -794,7 +792,9 @@ Marginal note:CFR version — subsections (6) and (7)
 
 Previous Version
 
-#### Calculation of Fleet Average CO2 Equivalent Emission Values #FleetAverage
+#### Calculation of Fleet Average CO2 Equivalent Emission Values 
+
+#FleetAverage
 
 Marginal note:Fleet average CO2 equivalent emission value
 

@@ -1396,7 +1396,7 @@ Crédito ACE j 2025-2027 = Crédito por eficiencia en los sistemas de aire acond
 247 760 = corresponde al kilometraje estimado asociado con la vida útil de un vehículo
 
 
-4.4.3 Relacionados con la penetración tecnológica
+### 4.4.3 Relacionados con la penetración tecnológica
 
 
 Los Corporativos deberán elaborar, presentar y aplicar un programa de penetración de tecnologías que permitan reducir las Emisiones de CO2 para los vehículos automotores. El programa debe especificar el porcentaje de penetración de las siguientes tecnologías, con respecto a las ventas totales del Año modelo regulado. El Crédito será aplicable para las flotas de los años modelo regulados 2017 a 2024.
@@ -2052,10 +2052,12 @@ Crédito TFC j 2025-2027 = Créditos por tecnologías fuera de ciclo del corpora
 ## 4.5 Reportes anuales de información
 
 
-### 4.5.1 Los Corporativos deben presentar un reporte anual de información, el cual estará asociado a las características técnicas y a las emisiones de los vehículos de un año modelo específico, según lo indicado en la Tabla 21 de esta Norma Oficial Mexicana, así como a las ventas totales de los mismos, e incluso a los Créditos que el propio Corporativo haya generado durante el periodo correspondiente.
+### 4.5.1 
+Los Corporativos deben presentar un reporte anual de información, el cual estará asociado a las características técnicas y a las emisiones de los vehículos de un año modelo específico, según lo indicado en la Tabla 21 de esta Norma Oficial Mexicana, así como a las ventas totales de los mismos, e incluso a los Créditos que el propio Corporativo haya generado durante el periodo correspondiente.
 
 
-### 4.5.2 Los reportes anuales de información constan de lo siguiente:
+### 4.5.2
+Los reportes anuales de información constan de lo siguiente:
 
 
 a) Escrito libre firmado por el representante o apoderado legal.
@@ -2786,7 +2788,7 @@ Las UIA acreditadas y aprobadas deben conservar por 10 años la documentación q
 6.4.8 La PROFEPA en cualquier momento podrá verificar el cumplimiento de la presente Norma Oficial Mexicana.
 
 
-7 Vigilancia
+## 7 Vigilancia
 
 
 La vigilancia del cumplimiento de la presente Norma Oficial Mexicana corresponde a la Secretaría del Medio Ambiente y Recursos Naturales, a través de la PROFEPA.
@@ -2795,7 +2797,7 @@ La vigilancia del cumplimiento de la presente Norma Oficial Mexicana corresponde
 El incumplimiento de este instrumento normativo motivará la aplicación de las sanciones económicas establecidas en la fracción I del Artículo 171 de la Ley General del Equilibrio Ecológico y la Protección al Ambiente.
 
 
-8 Concordancia con Normas Internacionales
+## 8 Concordancia con Normas Internacionales
 
 
 Esta Norma Oficial Mexicana no es equivalente (NEQ) con ninguna Norma Internacional, por no existir esta última al momento de elaborar la presente Norma Oficial Mexicana.
