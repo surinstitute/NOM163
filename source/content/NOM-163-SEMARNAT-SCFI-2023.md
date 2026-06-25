@@ -1980,7 +1980,7 @@ La fórmula para determinar el Crédito por la incorporación del sistema eléct
 ![](https://diariooficial.gob.mx/normasOficiales/9389/semarnat/img47.png)
 
 $$
-	ext{CréditoTFCSECC}_{\text{año }k} = 1.92 \cdot \left( \frac{\text{Ventas}_{\text{SECC,VP}}}{\text{Ventas}_{\text{tot,año }k}} \right) + 3.38 \cdot \left( \frac{\text{Ventas}_{\text{SECC,CL}}}{\text{Ventas}_{\text{tot,año }k}} \right)
+\text{CréditoTFCSECC}_{\text{año }k} = 1.92 \cdot \left( \frac{\text{Ventas}_{\text{SECC,VP}}}{\text{Ventas}_{\text{tot,año }k}} \right) + 3.38 \cdot \left( \frac{\text{Ventas}_{\text{SECC,CL}}}{\text{Ventas}_{\text{tot,año }k}} \right)
 $$
 
 Donde
@@ -2004,7 +2004,7 @@ El crédito total a otorgar a la flota del corporativo por la incorporación de 
 ![](https://diariooficial.gob.mx/normasOficiales/9389/semarnat/img48.png)
 
 $$
-	ext{CréditoTFC}_{\text{año }k} = \text{CréditoTFCL}_{\text{año }k} + \text{CréditoTFCRC}_{\text{año }k} + \text{CréditoTFCMA}_{\text{año }k} + \text{CréditoTFCPA}_{\text{año }k} + \text{CréditoTFCCAM}_{\text{año }k} + \text{CréditoTFCCAT}_{\text{año }k} + \text{CréditoTFCCT}_{\text{año }k} + \text{CréditoTFCPS}_{\text{año }k} + \text{CréditoTFCSECC}_{\text{año }k} + \text{CréditoTFCSMP}_{\text{año }k}
+\text{CréditoTFC}_{\text{año }k} = \text{CréditoTFCL}_{\text{año }k} + \text{CréditoTFCRC}_{\text{año }k} + \text{CréditoTFCMA}_{\text{año }k} + \text{CréditoTFCPA}_{\text{año }k} + \text{CréditoTFCCAM}_{\text{año }k} + \text{CréditoTFCCAT}_{\text{año }k} + \text{CréditoTFCCT}_{\text{año }k} + \text{CréditoTFCPS}_{\text{año }k} + \text{CréditoTFCSECC}_{\text{año }k} + \text{CréditoTFCSMP}_{\text{año }k}
 $$
 
 Si
@@ -2028,7 +2028,7 @@ El monto final de crédito a otorgar para el año modelo regulado en unidades de
 ![](https://diariooficial.gob.mx/normasOficiales/9389/semarnat/img51.png)
 
 $$
-	ext{CréditoTFC}_{\text{año }k} = (\text{CréditoTFCL}_{\text{año }k} + \text{CréditoTFCRC}_{\text{año }k} + \text{CréditoTFCMA}_{\text{año }k} + \text{CréditoTFCPA}_{\text{año }k} + \text{CréditoTFCCAM}_{\text{año }k} + \text{CréditoTFCCAT}_{\text{año }k} + \text{CréditoTFCCT}_{\text{año }k} + \text{CréditoTFCPS}_{\text{año }k} + \text{CréditoTFCSECC}_{\text{año }k} + \text{CréditoTFCSMP}_{\text{año }k}) \cdot \text{Ventas}_{\text{tot,año }k} \cdot 247760
+\text{CréditoTFC}_{\text{año }k} = (\text{CréditoTFCL}_{\text{año }k} + \text{CréditoTFCRC}_{\text{año }k} + \text{CréditoTFCMA}_{\text{año }k} + \text{CréditoTFCPA}_{\text{año }k} + \text{CréditoTFCCAM}_{\text{año }k} + \text{CréditoTFCCAT}_{\text{año }k} + \text{CréditoTFCCT}_{\text{año }k} + \text{CréditoTFCPS}_{\text{año }k} + \text{CréditoTFCSECC}_{\text{año }k} + \text{CréditoTFCSMP}_{\text{año }k}) \cdot \text{Ventas}_{\text{tot,año }k} \cdot 247760
 $$
 
 El crédito total para el periodo regulado 2025-2027 por la incorporación de todas las tecnologías fuera de ciclo es:
