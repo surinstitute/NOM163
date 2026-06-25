@@ -860,12 +860,9 @@ Las fórmulas para determinar el Crédito por introducción de tecnologías alta
 
 ![](https://diariooficial.gob.mx/normasOficiales/9389/semarnat/img11.png)
 
-$$
-\text{CréditoTAE}_{\text{año}i} = \left[(1.8 \cdot \alpha)_i \cdot \text{Ventas}_{\text{totalesaño}i}\right] \cdot 247760
-$$
+$$\text{CréditoTAE}_{\text{año}i} = \left[(1.8 \cdot \alpha)_i \cdot \text{Ventas}_{\text{totalesaño}i}\right] \cdot 247760$$
 
-$$
-\text{CréditoTAE}_{i2017-2018} = \frac{\sum \text{CréditoTAE}_{\text{año}i}}{\sum \text{Ventas}_{i2017-2018}}$$
+$$\text{CréditoTAE}_{i2017-2018} = \frac{\sum \text{CréditoTAE}_{\text{año}i}}{\sum \text{Ventas}_{i2017-2018}}$$
 
 Donde:
 
@@ -1095,7 +1092,7 @@ $$\left( \text{PCPM}_{\frac{gCO_2}{km}} - \text{PCPO}_{\frac{gCO_2}{km}} \right)
 es negativo y el término 1 
 
 $$\left( \text{PCPM}_{\text{proy},i} - \text{PCPO}_{\text{proy},i} \right)$$
-es positivo y esta condición del término 2 $$\left( \text{PCPM}_{\frac{gCO_2}{km}} - \text{PCPO}_{\frac{gCO_2}{km}} \right)$$ se presenta durante dos años modelo consecutivos en el periodo regulado; el corporativo para esos dos años modelo tendrá en cuenta para el cálculo del Crédito TAE año i, la magnitud absoluta del término 2 
+es positivo y esta condición del término 2 $\left( \text{PCPM}_{\frac{gCO_2}{km}} - \text{PCPO}_{\frac{gCO_2}{km}} \right)$ se presenta durante dos años modelo consecutivos en el periodo regulado; el corporativo para esos dos años modelo tendrá en cuenta para el cálculo del Crédito TAE año i, la magnitud absoluta del término 2 
 $$\left( \text{PCPM}_{\text{proy},i} - \text{PCPO}_{\text{proy},i} \right)$$
 dicha magnitud se restará al término 1 
 $$\left( \text{PCPM}_{\frac{gCO_2}{km}} - \text{PCPO}_{\frac{gCO_2}{km}} \right)$$
@@ -1278,13 +1275,14 @@ $$\text{CreditoACL}_{\text{ano }k} = \left[(4.12 \cdot \alpha_{\text{ACL,ano }k}
 
 $$\alpha_{\text{ACL,ano }k} = \frac{\text{Ventas}_{\text{ACL,ano }k}}{\text{Ventas}_{\text{tot,ano }k}}$$
 
-$$\text{CréditoACL}_{j\,2025\text{--}2027}  
-=  
-\frac{  
-\displaystyle \sum_{k=2025}^{2027} \text{CréditoACL}_{año\,k}  
-}{  
-\displaystyle \sum_{k=2025}^{2027} \text{Ventas}_{tot\,año\,k}  
-}$$
+$$
+	ext{CréditoACL}_{j,2025\text{--}2027} =
+\frac{
+\sum_{k=2025}^{2027} \text{CréditoACL}_{\text{año }k}
+}{
+\sum_{k=2025}^{2027} \text{Ventas}_{\text{tot,año }k}
+}
+$$
 
 Donde:
 
@@ -1333,13 +1331,14 @@ $$\text{CreditoACLR}_{\text{ano }k} = \left[(9.04 \cdot \alpha_{\text{ACLR,ano }
 
 $$\alpha_{\text{ACLR,ano }k} = \frac{\text{Ventas}_{\text{ACLR,ano }k}}{\text{Ventas}_{\text{tot,ano }k}}$$
 
-$$\text{CréditoACLR}_{j\,2025\text{--}2027}  
-=  
-\frac{  
-\displaystyle \sum_{k=2025}^{2027} \text{CréditoACLR}_{año\,k}  
-}{  
-\displaystyle \sum_{k=2025}^{2027} \text{Ventas}_{tot\,año\,k}  
-}$$
+$$
+	ext{CréditoACLR}_{j,2025\text{--}2027} =
+\frac{
+\sum_{k=2025}^{2027} \text{CréditoACLR}_{\text{año }k}
+}{
+\sum_{k=2025}^{2027} \text{Ventas}_{\text{tot,año }k}
+}
+$$
 
 
 Donde:
@@ -2030,13 +2029,13 @@ $$
 Si
 
 
-$\text{CréditoTFC}_{\text{año }k} \ge 6.25$
+$$\text{CréditoTFC}_{\text{año }k} \ge 6.25$$
 
 
 Entonces
 
 
-$\text{CréditoTFC}_{\text{año }k} = 6.25$
+$$\text{CréditoTFC}_{\text{año }k} = 6.25$$
 
 
 En caso contrario será el resultado de la suma
@@ -2056,7 +2055,7 @@ El crédito total para el periodo regulado 2025-2027 por la incorporación de to
 
 ![](https://diariooficial.gob.mx/normasOficiales/9389/semarnat/img52.png)
 
-$\text{CréditoTFC}_{j,2025-2027} = \frac{\sum_{k=2025}^{2027} \text{CréditoTFC}_{\text{año }k}}{\sum_{k=2025}^{2027} \text{Ventas}_{\text{total }k}}$
+$$\text{CréditoTFC}_{j,2025-2027} = \frac{\sum_{k=2025}^{2027} \text{CréditoTFC}_{\text{año }k}}{\sum_{k=2025}^{2027} \text{Ventas}_{\text{total }k}}$$
 
 Donde:
 
@@ -2337,19 +2336,20 @@ La fórmula para la aplicación del presente inciso, con respecto al cálculo de
 
 ![](https://diariooficial.gob.mx/normasOficiales/9389/semarnat/img56.png)
 
-$$CA1_{i,2025-2027} =  
-\frac{  
-\left[  
-(\text{PCPM}_i - \text{PCPO}_i)_{2025}\,\text{Ventas}_{i,2025}  
-+  
-(\text{PCPM}_i - \text{PCPO}_i)_{2026}\,\text{Ventas}_{i,2026}  
-+  
-(\text{PCPM}_i - \text{PCPO}_i)_{2027}\,\text{Ventas}_{i,2027}  
-\right]  
-\times 247760  
-}{  
-\sum \text{Ventas}_{i,2025-2027}  
-}$$
+$$
+CA1_{i,2025-2027} =
+\frac{
+\left[
+(\text{PCPM}_i - \text{PCPO}_i)_{2025}\,\text{Ventas}_{i,2025}
++
+(\text{PCPM}_i - \text{PCPO}_i)_{2026}\,\text{Ventas}_{i,2026}
++
+(\text{PCPM}_i - \text{PCPO}_i)_{2027}\,\text{Ventas}_{i,2027}
+\right] \times 247760
+}{
+\sum \text{Ventas}_{i,2025-2027}
+}
+$$
 
 Dónde:
 
@@ -2455,43 +2455,26 @@ El criterio de aceptación para los Corporativos que demuestren la elegibilidad 
 ![](https://diariooficial.gob.mx/normasOficiales/9389/semarnat/img59.png)
 
 $$
-\begin{aligned}
-CA1_{i,2019-2027}
-&=
+CA1_{i,2019-2027} =
 \frac{
-[(1.25\,PCPM_i-PCPO_i)_{2017}Ventas_{i,2017}
-+(1.25\,PCPM_i-PCPO_i)_{2018}Ventas_{i,2018}]
-\,247760
+\left[\left(1.25\,PCPM_i - PCPO_i\right)_{2017}\,\text{Ventas}_{i,2017} + \left(1.25\,PCPM_i - PCPO_i\right)_{2018}\,\text{Ventas}_{i,2018}\right] \cdot 247760
 }{
-\sum Ventas_{i,2017-2018}
+\sum \text{Ventas}_{i,2017-2018}
 }
-\\
-&\quad+
++
 \frac{
-[(PCPM_i-PCPO_i)_{2019}Ventas_{i,2019}
-+(PCPM_i-PCPO_i)_{2020}Ventas_{i,2020}
-+(PCPM_i-PCPO_i)_{2021}Ventas_{i,2021}
-+(PCPM_i-PCPO_i)_{2022}Ventas_{i,2022}
-+(PCPM_i-PCPO_i)_{2023}Ventas_{i,2023}
-+(PCPM_i-PCPO_i)_{2024}Ventas_{i,2024}]
-\,247760
+\left[\left(PCPM_i - PCPO_i\right)_{2019}\,\text{Ventas}_{i,2019} + \left(PCPM_i - PCPO_i\right)_{2020}\,\text{Ventas}_{i,2020} + \left(PCPM_i - PCPO_i\right)_{2021}\,\text{Ventas}_{i,2021} + \left(PCPM_i - PCPO_i\right)_{2022}\,\text{Ventas}_{i,2022} + \left(PCPM_i - PCPO_i\right)_{2023}\,\text{Ventas}_{i,2023} + \left(PCPM_i - PCPO_i\right)_{2024}\,\text{Ventas}_{i,2024}\right] \cdot 247760
 }{
-\sum Ventas_{i,2019-2024}
+\sum \text{Ventas}_{i,2019-2024}
 }
-\\
-&\quad+
++
 \frac{
-[(PCPM_i-PCPO_i)_{2025}Ventas_{i,2025}
-+(PCPM_i-PCPO_i)_{2026}Ventas_{i,2026}
-+(PCPM_i-PCPO_i)_{2027}Ventas_{i,2027}]
-\,247760
+\left[\left(PCPM_i - PCPO_i\right)_{2025}\,\text{Ventas}_{i,2025} + \left(PCPM_i - PCPO_i\right)_{2026}\,\text{Ventas}_{i,2026} + \left(PCPM_i - PCPO_i\right)_{2027}\,\text{Ventas}_{i,2027}\right] \cdot 247760
 }{
-\sum Ventas_{i,2025-2027}
+\sum \text{Ventas}_{i,2025-2027}
 }
 \ge 0
-\\
-&\Rightarrow \text{Cumple}
-\end{aligned}
+\Rightarrow \text{Cumple}
 $$
 
 Donde:
