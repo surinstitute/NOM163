@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NOM-163-SEMARNAT-SCFI-2023.md",
+                "file": "Matriz Alineacion NOM163 y Canada.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "NOM-163-SEMARNAT-SCFI-2023"
+              "title": "Matriz Alineacion NOM163 y Canada"
             }
           },
           {
@@ -123,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NOM-163-SEMARNAT-SCFI-2023.md",
+                "file": "Matriz Alineacion NOM163 y Canada.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +133,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Enlaces entrantes de NOM-163-SEMARNAT-SCFI-2023"
+              "title": "Enlaces entrantes de Matriz Alineacion NOM163 y Canada"
             }
           },
           {
@@ -142,12 +142,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NOM-163-SEMARNAT-SCFI-2023.md",
+                "file": "Matriz Alineacion NOM163 y Canada.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Enlaces salientes de NOM-163-SEMARNAT-SCFI-2023"
+              "title": "Enlaces salientes de Matriz Alineacion NOM163 y Canada"
             }
           },
           {
@@ -171,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "NOM-163-SEMARNAT-SCFI-2023.md",
+                "file": "Matriz Alineacion NOM163 y Canada.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Esquema de NOM-163-SEMARNAT-SCFI-2023"
+              "title": "Esquema de Matriz Alineacion NOM163 y Canada"
             }
           }
         ]
@@ -201,13 +201,13 @@
   },
   "active": "2d8837e6263008e3",
   "lastOpenFiles": [
-    "Matriz Alineacion NOM163 y Canada.md",
-    "NOM-163-SEMARNAT-SCFI-2023.md",
     "PALTCGER.md",
+    "NOM-163-SEMARNAT-SCFI-2023.md",
+    "Matriz Alineacion NOM163 y Canada.md",
+    "index.md",
     "Análisis Comparativo.md",
     "category-folder/index.md",
     "category-folder/Some note.md",
-    "index.md",
     "category-folder"
   ]
 }
